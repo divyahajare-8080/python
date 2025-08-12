@@ -1,0 +1,20 @@
+
+name: Basic commands
+
+on:
+  push:
+    branches:
+       - main
+       - newB
+  
+jobs:
+  demo_commands1:
+    runs-on: ubuntu-latest
+       
+    steps:
+      - name: Show Current Working Directory
+        run: pwd
+      - name: list files in directory
+        run: ls -la
+      
+    
