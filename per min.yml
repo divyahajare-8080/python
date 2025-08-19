@@ -1,7 +1,7 @@
 name:Basic Commands
 on:
   schedule:
-    cron: "*/2 * * * *" #par two min
+    cron: "*/2 * * * *" #per two min
     
     jobs:
       demo-commands:
